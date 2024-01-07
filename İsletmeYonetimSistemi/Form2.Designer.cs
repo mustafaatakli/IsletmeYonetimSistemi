@@ -30,75 +30,75 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             groupBox1 = new GroupBox();
+            textBox9 = new TextBox();
+            label14 = new Label();
+            textBox8 = new TextBox();
+            label13 = new Label();
+            button1 = new Button();
+            textBox7 = new TextBox();
+            label5 = new Label();
+            textBox3 = new TextBox();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
             groupBox2 = new GroupBox();
+            button8 = new Button();
+            button4 = new Button();
+            comboBox1 = new ComboBox();
+            textBox5 = new TextBox();
+            label9 = new Label();
+            label8 = new Label();
             groupBox3 = new GroupBox();
+            listBox1 = new ListBox();
             groupBox4 = new GroupBox();
+            button5 = new Button();
+            label7 = new Label();
+            button3 = new Button();
+            comboBox2 = new ComboBox();
+            textBox4 = new TextBox();
             label16 = new Label();
             label17 = new Label();
             button17 = new Button();
             button19 = new Button();
             groupBox5 = new GroupBox();
+            label6 = new Label();
+            comboBox4 = new ComboBox();
+            label10 = new Label();
+            textBox6 = new TextBox();
+            button6 = new Button();
+            button7 = new Button();
             label21 = new Label();
             label22 = new Label();
             button22 = new Button();
             button24 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            maskedTextBox1 = new MaskedTextBox();
-            label5 = new Label();
-            button1 = new Button();
-            radioButton1 = new RadioButton();
-            radioButton2 = new RadioButton();
-            listBox1 = new ListBox();
-            comboBox1 = new ComboBox();
             button2 = new Button();
-            textBox4 = new TextBox();
-            comboBox2 = new ComboBox();
-            button3 = new Button();
-            label7 = new Label();
-            comboBox4 = new ComboBox();
-            label8 = new Label();
-            label9 = new Label();
-            textBox5 = new TextBox();
-            button4 = new Button();
-            button5 = new Button();
             groupBox6 = new GroupBox();
-            comboBox3 = new ComboBox();
-            textBox6 = new TextBox();
-            button6 = new Button();
-            button7 = new Button();
-            label11 = new Label();
             label12 = new Label();
-            label6 = new Label();
-            label10 = new Label();
-            textBox7 = new TextBox();
-            label13 = new Label();
-            button8 = new Button();
+            label11 = new Label();
+            comboBox3 = new ComboBox();
+            pictureBox1 = new PictureBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
             groupBox4.SuspendLayout();
             groupBox5.SuspendLayout();
             groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // groupBox1
             // 
             groupBox1.BackColor = Color.Transparent;
+            groupBox1.Controls.Add(textBox9);
+            groupBox1.Controls.Add(label14);
+            groupBox1.Controls.Add(textBox8);
             groupBox1.Controls.Add(label13);
             groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(textBox7);
-            groupBox1.Controls.Add(radioButton2);
-            groupBox1.Controls.Add(radioButton1);
             groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(maskedTextBox1);
             groupBox1.Controls.Add(textBox3);
-            groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label1);
@@ -112,6 +112,122 @@
             groupBox1.TabIndex = 5;
             groupBox1.TabStop = false;
             groupBox1.Text = "Yeni Çalışan Ekle";
+            // 
+            // textBox9
+            // 
+            textBox9.Location = new Point(135, 117);
+            textBox9.Name = "textBox9";
+            textBox9.Size = new Size(106, 25);
+            textBox9.TabIndex = 14;
+            textBox9.TextChanged += textBox9_TextChanged;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Yu Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.Location = new Point(21, 117);
+            label14.Name = "label14";
+            label14.Size = new Size(83, 20);
+            label14.TabIndex = 13;
+            label14.Text = "İzin Günü :";
+            // 
+            // textBox8
+            // 
+            textBox8.Location = new Point(135, 88);
+            textBox8.Name = "textBox8";
+            textBox8.Size = new Size(106, 25);
+            textBox8.TabIndex = 12;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Yu Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.Location = new Point(21, 178);
+            label13.Name = "label13";
+            label13.Size = new Size(104, 20);
+            label13.TabIndex = 11;
+            label13.Text = "Kullanıcı Adı :";
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Tomato;
+            button1.Font = new Font("Yu Gothic", 11.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            button1.ForeColor = Color.Black;
+            button1.Location = new Point(134, 211);
+            button1.Name = "button1";
+            button1.Size = new Size(106, 42);
+            button1.TabIndex = 10;
+            button1.Text = "KAYDET";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // textBox7
+            // 
+            textBox7.Location = new Point(135, 178);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(106, 25);
+            textBox7.TabIndex = 10;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Yu Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Location = new Point(21, 147);
+            label5.Name = "label5";
+            label5.Size = new Size(93, 20);
+            label5.TabIndex = 9;
+            label5.Text = "Departman :";
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(135, 147);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(106, 25);
+            textBox3.TabIndex = 2;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Yu Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(21, 88);
+            label3.Name = "label3";
+            label3.Size = new Size(55, 20);
+            label3.TabIndex = 6;
+            label3.Text = "Maaş :";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Yu Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(21, 60);
+            label2.Name = "label2";
+            label2.Size = new Size(58, 20);
+            label2.TabIndex = 5;
+            label2.Text = "Soyad :";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Yu Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(21, 29);
+            label1.Name = "label1";
+            label1.Size = new Size(36, 20);
+            label1.TabIndex = 4;
+            label1.Text = "Ad :";
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(135, 57);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(106, 25);
+            textBox2.TabIndex = 1;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(135, 26);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(106, 25);
+            textBox1.TabIndex = 0;
             // 
             // groupBox2
             // 
@@ -132,6 +248,76 @@
             groupBox2.Text = "Personel Departman Değiştir";
             groupBox2.Enter += groupBox2_Enter;
             // 
+            // button8
+            // 
+            button8.BackColor = Color.Teal;
+            button8.Font = new Font("Arial", 8.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            button8.ForeColor = Color.Black;
+            button8.Location = new Point(102, 222);
+            button8.Name = "button8";
+            button8.Size = new Size(66, 24);
+            button8.TabIndex = 19;
+            button8.Text = "TEMİZLE";
+            button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.DarkKhaki;
+            button4.Font = new Font("Yu Gothic", 11.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            button4.ForeColor = Color.Black;
+            button4.Location = new Point(90, 183);
+            button4.Name = "button4";
+            button4.Size = new Size(90, 33);
+            button4.TabIndex = 11;
+            button4.Text = "KAYDET";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(66, 86);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(137, 26);
+            comboBox1.TabIndex = 10;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // textBox5
+            // 
+            textBox5.Font = new Font("Georgia", 9F, FontStyle.Italic, GraphicsUnit.Point);
+            textBox5.Location = new Point(43, 146);
+            textBox5.Name = "textBox5";
+            textBox5.PlaceholderText = "Yeni Departman Bilgisi Giriniz.";
+            textBox5.Size = new Size(192, 21);
+            textBox5.TabIndex = 11;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.BorderStyle = BorderStyle.FixedSingle;
+            label9.FlatStyle = FlatStyle.Popup;
+            label9.Font = new Font("Candara", 9F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
+            label9.ForeColor = Color.Black;
+            label9.Location = new Point(6, 51);
+            label9.Name = "label9";
+            label9.Size = new Size(92, 16);
+            label9.TabIndex = 15;
+            label9.Text = "Listeden Seçiniz.";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BorderStyle = BorderStyle.FixedSingle;
+            label8.FlatStyle = FlatStyle.Popup;
+            label8.Font = new Font("Candara", 9F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
+            label8.ForeColor = Color.Black;
+            label8.Location = new Point(6, 35);
+            label8.Name = "label8";
+            label8.Size = new Size(251, 16);
+            label8.TabIndex = 14;
+            label8.Text = "*Departmanını Değiştirmek İstediğiniz Personeli ";
+            // 
             // groupBox3
             // 
             groupBox3.BackColor = Color.Transparent;
@@ -144,6 +330,16 @@
             groupBox3.TabIndex = 11;
             groupBox3.TabStop = false;
             groupBox3.Text = "Çalışanları Görütüle";
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 18;
+            listBox1.Location = new Point(6, 24);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(255, 220);
+            listBox1.TabIndex = 0;
+            listBox1.SelectedIndexChanged += button4_Click;
             // 
             // groupBox4
             // 
@@ -165,6 +361,60 @@
             groupBox4.TabIndex = 12;
             groupBox4.TabStop = false;
             groupBox4.Text = "Çalışan Maaş Düzenleme";
+            // 
+            // button5
+            // 
+            button5.BackColor = Color.Green;
+            button5.Font = new Font("Arial", 9.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            button5.ForeColor = Color.Black;
+            button5.Location = new Point(41, 112);
+            button5.Name = "button5";
+            button5.Size = new Size(121, 37);
+            button5.TabIndex = 14;
+            button5.Text = "TEMİZLE";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Candara", 9F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
+            label7.ForeColor = Color.Black;
+            label7.Location = new Point(41, 82);
+            label7.Name = "label7";
+            label7.Size = new Size(301, 14);
+            label7.TabIndex = 13;
+            label7.Text = "*Maaş Bilgisi Girmek İstediğiniz Personeli Listeden Seçiniz.";
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.RoyalBlue;
+            button3.Font = new Font("Arial", 9.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            button3.ForeColor = Color.Black;
+            button3.Location = new Point(204, 112);
+            button3.Name = "button3";
+            button3.Size = new Size(121, 37);
+            button3.TabIndex = 12;
+            button3.Text = "MAAŞ KAYDET";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(41, 36);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(121, 26);
+            comboBox2.TabIndex = 11;
+            // 
+            // textBox4
+            // 
+            textBox4.Font = new Font("Georgia", 9F, FontStyle.Italic, GraphicsUnit.Point);
+            textBox4.Location = new Point(204, 39);
+            textBox4.Name = "textBox4";
+            textBox4.PlaceholderText = "Maaş Bilgisi Giriniz.";
+            textBox4.Size = new Size(121, 21);
+            textBox4.TabIndex = 10;
             // 
             // label16
             // 
@@ -224,6 +474,71 @@
             groupBox5.TabStop = false;
             groupBox5.Text = "Personel İzin Bilgisi Düzenleme";
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Candara", 9F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
+            label6.ForeColor = Color.PaleTurquoise;
+            label6.Location = new Point(207, 48);
+            label6.Name = "label6";
+            label6.Size = new Size(139, 14);
+            label6.TabIndex = 18;
+            label6.Text = "Personeli Listeden Seçiniz.";
+            // 
+            // comboBox4
+            // 
+            comboBox4.FormattingEnabled = true;
+            comboBox4.Location = new Point(16, 34);
+            comboBox4.Name = "comboBox4";
+            comboBox4.Size = new Size(192, 26);
+            comboBox4.TabIndex = 12;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Candara", 9F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
+            label10.ForeColor = Color.PaleTurquoise;
+            label10.Location = new Point(207, 34);
+            label10.Name = "label10";
+            label10.Size = new Size(156, 14);
+            label10.TabIndex = 17;
+            label10.Text = "*İzin Bilgisi Girmek İstediğiniz";
+            // 
+            // textBox6
+            // 
+            textBox6.Font = new Font("Georgia", 9F, FontStyle.Italic, GraphicsUnit.Point);
+            textBox6.Location = new Point(16, 82);
+            textBox6.Name = "textBox6";
+            textBox6.PlaceholderText = "İzin Bilgisi Giriniz.";
+            textBox6.Size = new Size(192, 21);
+            textBox6.TabIndex = 15;
+            // 
+            // button6
+            // 
+            button6.BackColor = Color.CornflowerBlue;
+            button6.Font = new Font("Arial", 8.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            button6.ForeColor = Color.Black;
+            button6.Location = new Point(142, 112);
+            button6.Name = "button6";
+            button6.Size = new Size(66, 42);
+            button6.TabIndex = 15;
+            button6.Text = "İZİN KAYDET";
+            button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
+            // 
+            // button7
+            // 
+            button7.BackColor = Color.Green;
+            button7.Font = new Font("Arial", 8.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            button7.ForeColor = Color.Black;
+            button7.Location = new Point(16, 112);
+            button7.Name = "button7";
+            button7.Size = new Size(66, 42);
+            button7.TabIndex = 16;
+            button7.Text = "TEMİZLE";
+            button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
+            // 
             // label21
             // 
             label21.AutoSize = true;
@@ -260,140 +575,6 @@
             button24.Text = "TIKLA";
             button24.UseVisualStyleBackColor = true;
             // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(135, 26);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(106, 25);
-            textBox1.TabIndex = 0;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(135, 57);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(106, 25);
-            textBox2.TabIndex = 1;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(135, 147);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(106, 25);
-            textBox3.TabIndex = 2;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Yu Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(21, 29);
-            label1.Name = "label1";
-            label1.Size = new Size(36, 20);
-            label1.TabIndex = 4;
-            label1.Text = "Ad :";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Yu Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(21, 60);
-            label2.Name = "label2";
-            label2.Size = new Size(58, 20);
-            label2.TabIndex = 5;
-            label2.Text = "Soyad :";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Yu Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(21, 88);
-            label3.Name = "label3";
-            label3.Size = new Size(107, 20);
-            label3.TabIndex = 6;
-            label3.Text = "Doğum Tarihi :";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Yu Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(21, 119);
-            label4.Name = "label4";
-            label4.Size = new Size(72, 20);
-            label4.TabIndex = 7;
-            label4.Text = "Cinsiyet :";
-            // 
-            // maskedTextBox1
-            // 
-            maskedTextBox1.Location = new Point(135, 88);
-            maskedTextBox1.Mask = "00/00/0000";
-            maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(106, 25);
-            maskedTextBox1.TabIndex = 8;
-            maskedTextBox1.ValidatingType = typeof(DateTime);
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Yu Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(21, 147);
-            label5.Name = "label5";
-            label5.Size = new Size(93, 20);
-            label5.TabIndex = 9;
-            label5.Text = "Departman :";
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Tomato;
-            button1.Font = new Font("Yu Gothic", 11.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
-            button1.ForeColor = Color.Black;
-            button1.Location = new Point(134, 211);
-            button1.Name = "button1";
-            button1.Size = new Size(106, 42);
-            button1.TabIndex = 10;
-            button1.Text = "KAYDET";
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Font = new Font("Yu Gothic", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton1.Location = new Point(134, 121);
-            radioButton1.Name = "radioButton1";
-            radioButton1.RightToLeft = RightToLeft.No;
-            radioButton1.Size = new Size(54, 18);
-            radioButton1.TabIndex = 0;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Kadın";
-            radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            radioButton2.AutoSize = true;
-            radioButton2.Font = new Font("Yu Gothic", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton2.Location = new Point(186, 121);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(54, 18);
-            radioButton2.TabIndex = 1;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Erkek";
-            radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // listBox1
-            // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 18;
-            listBox1.Location = new Point(6, 24);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(255, 220);
-            listBox1.TabIndex = 0;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(66, 86);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(137, 26);
-            comboBox1.TabIndex = 10;
-            // 
             // button2
             // 
             button2.BackColor = Color.Red;
@@ -405,113 +586,7 @@
             button2.TabIndex = 12;
             button2.Text = "PERSONEL KAYDI SİL";
             button2.UseVisualStyleBackColor = false;
-            // 
-            // textBox4
-            // 
-            textBox4.Font = new Font("Georgia", 9F, FontStyle.Italic, GraphicsUnit.Point);
-            textBox4.Location = new Point(204, 39);
-            textBox4.Name = "textBox4";
-            textBox4.PlaceholderText = "Maaş Bilgisi Giriniz.";
-            textBox4.Size = new Size(121, 21);
-            textBox4.TabIndex = 10;
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(41, 36);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(121, 26);
-            comboBox2.TabIndex = 11;
-            // 
-            // button3
-            // 
-            button3.BackColor = Color.RoyalBlue;
-            button3.Font = new Font("Arial", 9.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
-            button3.ForeColor = Color.Black;
-            button3.Location = new Point(204, 112);
-            button3.Name = "button3";
-            button3.Size = new Size(121, 37);
-            button3.TabIndex = 12;
-            button3.Text = "MAAŞ KAYDET";
-            button3.UseVisualStyleBackColor = false;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Candara", 9F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
-            label7.ForeColor = Color.Black;
-            label7.Location = new Point(41, 82);
-            label7.Name = "label7";
-            label7.Size = new Size(301, 14);
-            label7.TabIndex = 13;
-            label7.Text = "*Maaş Bilgisi Girmek İstediğiniz Personeli Listeden Seçiniz.";
-            // 
-            // comboBox4
-            // 
-            comboBox4.FormattingEnabled = true;
-            comboBox4.Location = new Point(16, 34);
-            comboBox4.Name = "comboBox4";
-            comboBox4.Size = new Size(192, 26);
-            comboBox4.TabIndex = 12;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.BorderStyle = BorderStyle.FixedSingle;
-            label8.FlatStyle = FlatStyle.Popup;
-            label8.Font = new Font("Candara", 9F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
-            label8.ForeColor = Color.Black;
-            label8.Location = new Point(6, 35);
-            label8.Name = "label8";
-            label8.Size = new Size(251, 16);
-            label8.TabIndex = 14;
-            label8.Text = "*Departmanını Değiştirmek İstediğiniz Personeli ";
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.BorderStyle = BorderStyle.FixedSingle;
-            label9.FlatStyle = FlatStyle.Popup;
-            label9.Font = new Font("Candara", 9F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
-            label9.ForeColor = Color.Black;
-            label9.Location = new Point(6, 51);
-            label9.Name = "label9";
-            label9.Size = new Size(92, 16);
-            label9.TabIndex = 15;
-            label9.Text = "Listeden Seçiniz.";
-            // 
-            // textBox5
-            // 
-            textBox5.Font = new Font("Georgia", 9F, FontStyle.Italic, GraphicsUnit.Point);
-            textBox5.Location = new Point(43, 146);
-            textBox5.Name = "textBox5";
-            textBox5.PlaceholderText = "Yeni Departman Bilgisi Giriniz.";
-            textBox5.Size = new Size(192, 21);
-            textBox5.TabIndex = 11;
-            // 
-            // button4
-            // 
-            button4.BackColor = Color.DarkKhaki;
-            button4.Font = new Font("Yu Gothic", 11.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
-            button4.ForeColor = Color.Black;
-            button4.Location = new Point(90, 183);
-            button4.Name = "button4";
-            button4.Size = new Size(90, 33);
-            button4.TabIndex = 11;
-            button4.Text = "KAYDET";
-            button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            button5.BackColor = Color.Green;
-            button5.Font = new Font("Arial", 9.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
-            button5.ForeColor = Color.Black;
-            button5.Location = new Point(41, 112);
-            button5.Name = "button5";
-            button5.Size = new Size(121, 37);
-            button5.TabIndex = 14;
-            button5.Text = "TEMİZLE";
-            button5.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // groupBox6
             // 
@@ -529,46 +604,16 @@
             groupBox6.TabStop = false;
             groupBox6.Text = "Mevcut Çalışan Çıkar";
             // 
-            // comboBox3
+            // label12
             // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(31, 34);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(137, 26);
-            comboBox3.TabIndex = 15;
-            // 
-            // textBox6
-            // 
-            textBox6.Font = new Font("Georgia", 9F, FontStyle.Italic, GraphicsUnit.Point);
-            textBox6.Location = new Point(16, 82);
-            textBox6.Name = "textBox6";
-            textBox6.PlaceholderText = "İzin Bilgisi Giriniz.";
-            textBox6.Size = new Size(192, 21);
-            textBox6.TabIndex = 15;
-            // 
-            // button6
-            // 
-            button6.BackColor = Color.CornflowerBlue;
-            button6.Font = new Font("Arial", 8.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
-            button6.ForeColor = Color.Black;
-            button6.Location = new Point(142, 112);
-            button6.Name = "button6";
-            button6.Size = new Size(66, 42);
-            button6.TabIndex = 15;
-            button6.Text = "İZİN KAYDET";
-            button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            button7.BackColor = Color.Green;
-            button7.Font = new Font("Arial", 8.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
-            button7.ForeColor = Color.Black;
-            button7.Location = new Point(16, 112);
-            button7.Name = "button7";
-            button7.Size = new Size(66, 42);
-            button7.TabIndex = 16;
-            button7.Text = "TEMİZLE";
-            button7.UseVisualStyleBackColor = false;
+            label12.AutoSize = true;
+            label12.Font = new Font("Candara", 9F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
+            label12.ForeColor = Color.Black;
+            label12.Location = new Point(15, 82);
+            label12.Name = "label12";
+            label12.Size = new Size(90, 14);
+            label12.TabIndex = 12;
+            label12.Text = "Listeden Seçiniz.";
             // 
             // label11
             // 
@@ -581,67 +626,25 @@
             label11.TabIndex = 11;
             label11.Text = "*Çıkarmak İstediğiniz Personeli ";
             // 
-            // label12
+            // comboBox3
             // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Candara", 9F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
-            label12.ForeColor = Color.Black;
-            label12.Location = new Point(15, 82);
-            label12.Name = "label12";
-            label12.Size = new Size(90, 14);
-            label12.TabIndex = 12;
-            label12.Text = "Listeden Seçiniz.";
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(31, 34);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(137, 26);
+            comboBox3.TabIndex = 15;
             // 
-            // label6
+            // pictureBox1
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Candara", 9F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
-            label6.ForeColor = Color.PaleTurquoise;
-            label6.Location = new Point(207, 48);
-            label6.Name = "label6";
-            label6.Size = new Size(139, 14);
-            label6.TabIndex = 18;
-            label6.Text = "Personeli Listeden Seçiniz.";
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Candara", 9F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
-            label10.ForeColor = Color.PaleTurquoise;
-            label10.Location = new Point(207, 34);
-            label10.Name = "label10";
-            label10.Size = new Size(156, 14);
-            label10.TabIndex = 17;
-            label10.Text = "*İzin Bilgisi Girmek İstediğiniz";
-            // 
-            // textBox7
-            // 
-            textBox7.Location = new Point(135, 178);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(106, 25);
-            textBox7.TabIndex = 10;
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Font = new Font("Yu Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label13.Location = new Point(21, 178);
-            label13.Name = "label13";
-            label13.Size = new Size(104, 20);
-            label13.TabIndex = 11;
-            label13.Text = "Kullanıcı Adı :";
-            // 
-            // button8
-            // 
-            button8.BackColor = Color.Teal;
-            button8.Font = new Font("Arial", 8.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
-            button8.ForeColor = Color.Black;
-            button8.Location = new Point(102, 222);
-            button8.Name = "button8";
-            button8.Size = new Size(66, 24);
-            button8.TabIndex = 19;
-            button8.Text = "TEMİZLE";
-            button8.UseVisualStyleBackColor = false;
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(12, 459);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(59, 52);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 18;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // Form2
             // 
@@ -649,7 +652,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1010, 483);
+            ClientSize = new Size(1010, 511);
+            Controls.Add(pictureBox1);
             Controls.Add(groupBox6);
             Controls.Add(groupBox5);
             Controls.Add(groupBox4);
@@ -657,8 +661,9 @@
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "Form2";
-            Text = "IsletmePersonelYonetimSistemiv1.0";
+            Text = "IsletmePersonelYonetimSistemi";
             Load += Form2_Load;
+            Click += pictureBox1_Click;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
@@ -670,6 +675,7 @@
             groupBox5.PerformLayout();
             groupBox6.ResumeLayout(false);
             groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -688,17 +694,12 @@
         private Button button22;
         private Button button24;
         private TextBox textBox3;
-        private TextBox textBox2;
         private TextBox textBox1;
         private Label label5;
-        private MaskedTextBox maskedTextBox1;
-        private Label label4;
         private Label label3;
         private Label label2;
         private Label label1;
         private Button button1;
-        private RadioButton radioButton1;
-        private RadioButton radioButton2;
         private ListBox listBox1;
         private ComboBox comboBox1;
         private Button button2;
@@ -724,5 +725,10 @@
         private Label label13;
         private TextBox textBox7;
         private Button button8;
+        private TextBox textBox9;
+        private Label label14;
+        private TextBox textBox8;
+        private TextBox textBox2;
+        public PictureBox pictureBox1;
     }
 }

@@ -43,20 +43,20 @@
             textBox5 = new TextBox();
             textBox4 = new TextBox();
             groupBox4 = new GroupBox();
+            pictureBox5 = new PictureBox();
             pictureBox3 = new PictureBox();
             button6 = new Button();
             textBox3 = new TextBox();
             pictureBox4 = new PictureBox();
-            pictureBox5 = new PictureBox();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox3.SuspendLayout();
             groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             SuspendLayout();
             // 
             // groupBox1
@@ -192,6 +192,7 @@
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(100, 30);
             textBox4.TabIndex = 0;
+            textBox4.TextChanged += textBox4_TextChanged;
             // 
             // groupBox4
             // 
@@ -208,6 +209,16 @@
             groupBox4.TabIndex = 2;
             groupBox4.TabStop = false;
             groupBox4.Text = "Öneri-Şikayet";
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(63, 165);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(31, 32);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.TabIndex = 18;
+            pictureBox5.TabStop = false;
             // 
             // pictureBox3
             // 
@@ -230,6 +241,7 @@
             button6.TabIndex = 16;
             button6.Text = "GÖNDER";
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // textBox3
             // 
@@ -249,16 +261,6 @@
             pictureBox4.TabIndex = 4;
             pictureBox4.TabStop = false;
             // 
-            // pictureBox5
-            // 
-            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(63, 165);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(31, 32);
-            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox5.TabIndex = 18;
-            pictureBox5.TabStop = false;
-            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -273,7 +275,7 @@
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "Form3";
-            Text = "IsletmePersonelYonetimSistemiv1.0";
+            Text = "IsletmePersonelYonetimSistemi";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -284,9 +286,9 @@
             groupBox3.PerformLayout();
             groupBox4.ResumeLayout(false);
             groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ResumeLayout(false);
         }
 
@@ -296,20 +298,20 @@
         private GroupBox groupBox2;
         private GroupBox groupBox3;
         private GroupBox groupBox4;
-        private TextBox textBox1;
-        private TextBox textBox2;
         private Label label1;
-        private TextBox textBox5;
-        private TextBox textBox4;
-        private TextBox textBox7;
         private Label label4;
         private Label label2;
-        private TextBox textBox3;
-        private Button button6;
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
+        public TextBox textBox1;
+        public TextBox textBox2;
+        public TextBox textBox5;
+        public TextBox textBox4;
+        public TextBox textBox7;
+        public TextBox textBox3;
+        public Button button6;
     }
 }
