@@ -9,3 +9,6 @@ C:\Users\matak\source\repos\İsletmeYonetimSistemi\Proje.Sinif\obj\Debug\net6.0\
 C:\Users\matak\source\repos\İsletmeYonetimSistemi\Proje.Sinif\obj\Debug\net6.0\refint\Proje.Sinif.dll
 C:\Users\matak\source\repos\İsletmeYonetimSistemi\Proje.Sinif\obj\Debug\net6.0\Proje.Sinif.pdb
 C:\Users\matak\source\repos\İsletmeYonetimSistemi\Proje.Sinif\obj\Debug\net6.0\ref\Proje.Sinif.dll
+C:\Users\matak\OneDrive\Belgeler\İsletmeYonetimSistemi\Proje.Sinif\obj\Debug\net6.0\Proje.Sinif.dll
+C:\Users\matak\OneDrive\Belgeler\İsletmeYonetimSistemi\Proje.Sinif\obj\Debug\net6.0\refint\Proje.Sinif.dll
+C:\Users\matak\OneDrive\Belgeler\İsletmeYonetimSistemi\Proje.Sinif\obj\Debug\net6.0\Proje.Sinif.pdb

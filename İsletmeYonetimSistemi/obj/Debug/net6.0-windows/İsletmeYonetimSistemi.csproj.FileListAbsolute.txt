@@ -21,3 +21,6 @@ C:\Users\matak\source\repos\İsletmeYonetimSistemi\İsletmeYonetimSistemi\bin\De
 C:\Users\matak\source\repos\İsletmeYonetimSistemi\İsletmeYonetimSistemi\bin\Debug\net6.0-windows\Proje.Sinif.pdb
 C:\Users\matak\source\repos\İsletmeYonetimSistemi\İsletmeYonetimSistemi\obj\Debug\net6.0-windows\İsletmeYonetimSistemi.csproj.AssemblyReference.cache
 C:\Users\matak\source\repos\İsletmeYonetimSistemi\İsletmeYonetimSistemi\obj\Debug\net6.0-windows\İsletmeYonetimSistemi.csproj.CopyComplete
+C:\Users\matak\OneDrive\Belgeler\İsletmeYonetimSistemi\İsletmeYonetimSistemi\obj\Debug\net6.0-windows\İsletmeYonetimSistemi.dll
+C:\Users\matak\OneDrive\Belgeler\İsletmeYonetimSistemi\İsletmeYonetimSistemi\obj\Debug\net6.0-windows\refint\İsletmeYonetimSistemi.dll
+C:\Users\matak\OneDrive\Belgeler\İsletmeYonetimSistemi\İsletmeYonetimSistemi\obj\Debug\net6.0-windows\İsletmeYonetimSistemi.pdb
