@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "İsletmeYonetimSistemi/1.0.0": {
+        "dependencies": {
+          "Proje.Sinif": "1.0.0"
+        },
+        "runtime": {
+          "İsletmeYonetimSistemi.dll": {}
+        }
+      },
+      "Proje.Sinif/1.0.0": {
+        "runtime": {
+          "Proje.Sinif.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "İsletmeYonetimSistemi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Proje.Sinif/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

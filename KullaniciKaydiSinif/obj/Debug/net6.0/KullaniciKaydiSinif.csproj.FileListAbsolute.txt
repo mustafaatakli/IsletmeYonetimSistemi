@@ -1,0 +1,11 @@
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\KullaniciKaydiSinif\bin\Debug\net6.0\KullaniciKaydiSinif.deps.json
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\KullaniciKaydiSinif\bin\Debug\net6.0\KullaniciKaydiSinif.dll
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\KullaniciKaydiSinif\bin\Debug\net6.0\KullaniciKaydiSinif.pdb
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\KullaniciKaydiSinif\obj\Debug\net6.0\KullaniciKaydiSinif.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\KullaniciKaydiSinif\obj\Debug\net6.0\KullaniciKaydiSinif.AssemblyInfoInputs.cache
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\KullaniciKaydiSinif\obj\Debug\net6.0\KullaniciKaydiSinif.AssemblyInfo.cs
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\KullaniciKaydiSinif\obj\Debug\net6.0\KullaniciKaydiSinif.csproj.CoreCompileInputs.cache
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\KullaniciKaydiSinif\obj\Debug\net6.0\KullaniciKaydiSinif.dll
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\KullaniciKaydiSinif\obj\Debug\net6.0\refint\KullaniciKaydiSinif.dll
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\KullaniciKaydiSinif\obj\Debug\net6.0\KullaniciKaydiSinif.pdb
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\KullaniciKaydiSinif\obj\Debug\net6.0\ref\KullaniciKaydiSinif.dll

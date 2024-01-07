@@ -1,0 +1,11 @@
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Personel.Sinif\bin\Debug\net6.0\Personel.Sinif.deps.json
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Personel.Sinif\bin\Debug\net6.0\Personel.Sinif.dll
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Personel.Sinif\bin\Debug\net6.0\Personel.Sinif.pdb
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Personel.Sinif\obj\Debug\net6.0\Personel.Sinif.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Personel.Sinif\obj\Debug\net6.0\Personel.Sinif.AssemblyInfoInputs.cache
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Personel.Sinif\obj\Debug\net6.0\Personel.Sinif.AssemblyInfo.cs
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Personel.Sinif\obj\Debug\net6.0\Personel.Sinif.csproj.CoreCompileInputs.cache
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Personel.Sinif\obj\Debug\net6.0\Personel.Sinif.dll
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Personel.Sinif\obj\Debug\net6.0\refint\Personel.Sinif.dll
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Personel.Sinif\obj\Debug\net6.0\Personel.Sinif.pdb
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Personel.Sinif\obj\Debug\net6.0\ref\Personel.Sinif.dll

@@ -1,0 +1,11 @@
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Yonetici.Sinif\bin\Debug\net6.0\Yonetici.Sinif.deps.json
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Yonetici.Sinif\bin\Debug\net6.0\Yonetici.Sinif.dll
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Yonetici.Sinif\bin\Debug\net6.0\Yonetici.Sinif.pdb
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Yonetici.Sinif\obj\Debug\net6.0\Yonetici.Sinif.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Yonetici.Sinif\obj\Debug\net6.0\Yonetici.Sinif.AssemblyInfoInputs.cache
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Yonetici.Sinif\obj\Debug\net6.0\Yonetici.Sinif.AssemblyInfo.cs
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Yonetici.Sinif\obj\Debug\net6.0\Yonetici.Sinif.csproj.CoreCompileInputs.cache
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Yonetici.Sinif\obj\Debug\net6.0\Yonetici.Sinif.dll
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Yonetici.Sinif\obj\Debug\net6.0\refint\Yonetici.Sinif.dll
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Yonetici.Sinif\obj\Debug\net6.0\Yonetici.Sinif.pdb
+C:\Users\matak\source\repos\İsletmeYonetimSistemi\Yonetici.Sinif\obj\Debug\net6.0\ref\Yonetici.Sinif.dll
